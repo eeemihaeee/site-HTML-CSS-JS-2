@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html> <!--  -->
+	<head> <!-- Заголовочный файл-->
+		<title> Мой первый сайт</title>
+		<link href='style.css' rel='stylesheet'>
+		<link href='stylemodule6.css' rel='stylesheet'>
+	</head>
+	<header> <!-- Шапка сайта -->
+		<nav id='menu1'>
+			<ul class='menu-site'>
+				<li> <a href='#'> Home </a></li>
+				<li> <a href='#'> About </a>
+					 <ul>
+						<li> <a href='#'> About1 </a>
+						<li> <a href='#'> About2 </a>
+						<li> <a href='#'> About3 </a>
+						<li> <a href='#'> About4 </a>
+					 </ul>
+				</li>
+				<li> <a href='#'> Contact </a></li>
+				<li> <a href='#'> Acount </a></li>
+			</ul>
+		</nav>
+		
+	</header>
+	<body> <!--тело сайта -->
+		<p id ='p1'> Это параграф </p>
+	<script>
+		/*Функция innerHTML - используется для обнвления текстовых данных или созадние, добавление новых объектов
+		BOM - Browser Object Model
+		window(HTML and JS Objects) 
+			->location
+			->history
+			->document
+			->navigator
+			->screen
+		Объявление переменных.
+		Правила:
+			1) Для имен переменны запрещается использовать ключевые или зарезервированные слова
+			2)Не допускаются проблеьные и разделительные символы
+			3)Имена переменных не могут содержать символы операций(+-!=*\.)
+			4)Не допускаются служебные символы( ;?!{})( )
+			5)Имена не могут начитаться с цифр
+			6)Для создания переменных используется верблюжья грамотность(LowerCamelCase)
+		Типы данных:
+			1) Undefined
+			2) null
+			3) Boolean
+			4) String
+			5) Symbol
+			6) Number (NaN - not a number - не удалось преобразать число,
+			infinity, -infinity, -0,+0)
+			7) Object
+		Основные операции:
+			1) Сложение x + y
+			2) Вычитание x - y
+			3) Умножение x * y
+			4) Деление x / y
+			5) Остаток от деления x % y
+			6) Возведение в степень x ** y
+			7) Инверсия -x
+			8) Инкремент x++ , ++x
+			9) Декремент x--, -x	
+		*/
+		/* формула f=x+ 2/x+1*y */
+		var x = 5
+		let y = 3
+		f = x + (2/(x+1))*y
+		console.log(f)
+		/*
+		Операторы отношений
+			1) Меньше <
+			2) Больше >
+			3) меньше-равно <=
+			4) больше-равно >=
+			5) Равенство не строгое ==
+			6) Равенство строгое ===
+			Проверьте сами в консоли:
+				а) '3'>'10'
+				b) 3 > '10'
+				c) '3' > 10
+				d) '3' == 3
+				e) '3' === 3
+		*/
+		login = 'admin'
+		password = '123'
+		login == 'user' and password='admin'
+		/* typeof - служит для определния типа перенной */
+	</script>
+	<script src='script.js'></script>
+	
+	
+	
+	
+	</body>
+	<footer> <!--Подвал сайта -->
+		<div class='footer-columns'>
+			<div  class='footer-column'> <!--лого сайта -->
+				<img src = 'images/logo.png' decoding='async' alt='Logo' width='250'>
+			</div>
+			<div class='footer-column'> <!--меню подвала -->
+				<ul class='footer-menu'>
+					<li> <a href='#'> Home </a></li>
+					<li> <a href='#'> About </a></li>
+					<li> <a href='#'> Contact </a></li>
+					<li> <a href='#'> Acount </a></li>
+				</ul>
+			</div>
+			<div class='footer-column'>
+				<h3> Свяжитесь с нами</h3>
+				<p>
+					Если вы заинтересованны в работе со мной или просто хотите пообщаться, просто пишите по электронной почте. <br>
+					<strong> Email: <a href='#'> contact@gmail.com </a> </strong>
+				</p>
+			</div>
+			</div>
+			<center> Copyright &copy; 2025</center>
+		
+	</footer>
+
+
+</html>

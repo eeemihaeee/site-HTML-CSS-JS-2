@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html> <!--  -->
+	<head> <!-- Заголовочный файл-->
+		<title> Мой первый сайт</title>
+		<link href='style.css' rel='stylesheet'>
+		<link href='stylemodule6.css' rel='stylesheet'>
+	</head>
+	<header> <!-- Шапка сайта -->
+		<nav id='menu1'>
+			<ul class='menu-site'>
+				<li> <a href='#'> Home </a></li>
+				<li> <a href='#'> About </a>
+					 <ul>
+						<li> <a href='#'> About1 </a>
+						<li> <a href='#'> About2 </a>
+						<li> <a href='#'> About3 </a>
+						<li> <a href='#'> About4 </a>
+					 </ul>
+				</li>
+				<li> <a href='#'> Contact </a></li>
+				<li> <a href='#'> Acount </a></li>
+			</ul>
+		</nav>
+		
+	</header>
+	<body> <!--тело сайта -->
+	<!--форма для поиска по сайту(пример) -->
+	<form>
+		<h2> Форма для поиска </h2>
+		<input type='text'/>
+		<input type='submit' value='Поиск'/>
+		<input type='reset' value='Очистить'/>
+	</form>
+	<hr>
+	<!--форма для отправки сообщения(пример) -->
+	<form action='/search' method='POST'>
+		<h2> Введите сообщение для отправки</h2>
+		<div>
+			<label for='uname'>Имя:</label>
+			<input type='text' id='uname' name='userName'>
+		</div>
+		<div>
+			<label for='email'>E-mail:</label>
+			<input type='email' id='email' name='userEmail'>
+		</div>
+		<div>
+			<label for='message'>Сообщение:</label>
+			<textarea id='message' name='message'> </textarea>
+		</div>
+		<div>
+			<label for ='password'>Пароль: </label>
+			<input type='password' id ='password' name='userPassword'/>
+		</div>
+		<div>
+			<h2>Ваш пол: </h2>
+			<input type='radio' id='gender1' value='male'name='sex'>
+			<label for ='gender1'>Муж. </label>
+			<input type='radio' id='gender2' value='female'name='sex'>
+			<label for ='gender2'>Жен. </label>
+		</div>
+		<div>
+			<h2> Ваша Занятость: </h2>
+			<select id='ucheb' name='ucheba'>
+				<option> Учусь в вузе</option>
+				<option> Учусь в школе</option>
+				<option> Учусь в колледже</option>
+				<option> Работаю</option>
+			</select>
+		</div>
+		<div>
+			<input type='checkbox' id='news' name='newsCheck'>
+			<label for ='news'>Подписка на рассылку </label>
+		</div>
+		
+		
+		<div>
+			<input type='submit' value='Поиск'/>
+		</div>
+	</form>
+	<hr>
+	
+	
+	
+	</body>
+	<footer> <!--Подвал сайта -->
+		<div class='footer-columns'>
+			<div  class='footer-column'> <!--лого сайта -->
+				<img src = 'images/logo.png' decoding='async' alt='Logo' width='250'>
+			</div>
+			<div class='footer-column'> <!--меню подвала -->
+				<ul class='footer-menu'>
+					<li> <a href='#'> Home </a></li>
+					<li> <a href='#'> About </a></li>
+					<li> <a href='#'> Contact </a></li>
+					<li> <a href='#'> Acount </a></li>
+				</ul>
+			</div>
+			<div class='footer-column'>
+				<h3> Свяжитесь с нами</h3>
+				<p>
+					Если вы заинтересованны в работе со мной или просто хотите пообщаться, просто пишите по электронной почте. <br>
+					<strong> Email: <a href='#'> contact@gmail.com </a> </strong>
+				</p>
+			</div>
+			</div>
+			<center> Copyright &copy; 2025</center>
+		
+	</footer>
+
+
+</html>
